@@ -1,0 +1,85 @@
+.navbar {
+font-family: 'Gugi', cursive;
+font-size: 45px;
+color: red;
+background-color: transparent;
+background-image: none;
+}
+.navbar-item{
+  text-align: center;
+}
+.navbar-item:hover{
+  background-color: none;
+  background-image: none;
+
+}
+
+#home{
+  color:black;
+}
+#home:hover{
+  color:red;
+  background-color: transparent;
+  background-image: none;
+}
+#about{
+  color:black;
+}
+#about:hover{
+  color:red;
+  background-color: transparent;
+  background-image: none;
+}
+
+#projects{
+  color:black;
+}
+#projects:hover{
+  color:red;
+  background-color: transparent;
+  background-image: none;
+}
+#more{
+  color:black;
+}
+#more:hover{
+  color:red;
+  background-color: transparent;
+  background-image: none;
+}
+.navbar-link{
+  color:black;
+}
+.image{
+  padding-top: 5px
+}
+nav{
+  height:4%;
+}
+.navbar-dropdown{
+  background-color: transparent;
+  background-image: none;
+}
+.navbar-dropdown:hover{
+  background-color: transparent;
+  background-image: none;
+}
+#clear{
+  background-color: rgba(255, 255, 255, 0.01);
+  color:black;
+  font-size: 1.5vw;
+}
+#clear:hover{
+  background-color: rgba(255, 255, 255, 0.01) ;
+  background-image: none;
+  color:red;  
+}
+
+#more{
+  background-color: rgba(255, 255, 255, 0.0001);
+  background-image: none;
+}
+#more:hover{
+  background-color: rgba(255, 255, 255, 0.0001);
+  background-image: none;
+}
