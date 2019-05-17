@@ -5,8 +5,9 @@ import { Navbar } from 'react-bulma-components';
 import  Nav  from "./components/nav.js";
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import  Intro  from "./components/intro.js";
-import mountains from "./images/01.jpg"
-
+import mountains from "./images/01.jpg";
+import About from "./components/about.js";
+import sky from "./images/beach-foam-iphone-wallpaper-533923.jpg";
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
            padding: '1em',
          }}><Nav/><Intro/></FullpageSection>
          <FullpageSection style={{
-           backgroundColor: 'coral',
+             backgroundImage: `url(${sky})`,
            padding: '1em',
-         }}>2</FullpageSection>
+         }}><About/></FullpageSection>
          <FullpageSection style={{
            backgroundColor: 'firebrick',
            padding: '1em',
