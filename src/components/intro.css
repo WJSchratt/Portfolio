@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 600px) {
 .walt {
   margin-top:30vh ;
   text-align: center;
@@ -44,15 +44,15 @@ filter:blur(0px);
 }
 }
 
-@media  (max-width: 799px) {
- 
+@media  (max-width: 599px) {
+
   .walt {
     margin-top:10vh ;
     text-align: center;
   }
   .short {
     margin-top: 2%;
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
     font-family: 'Gugi', cursive;
     color:rgba(0, 0, 0, 0.8 );
@@ -60,7 +60,7 @@ filter:blur(0px);
   }
   .main {
     font-family: 'Gugi', cursive;
-    font-size: 50px;
+    font-size: 10vw;
     color: black;
   }
 
