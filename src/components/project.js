@@ -15,7 +15,7 @@ export default class Projects extends Component {
       <ScrollableAnchor >
          <section id={'section3'}>
            <div className="arrow">
-             <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a>
+             <a className="icon ion-md-arrow-dropup-circle" href="#section3">Up</a>
            </div>
            <div className="body">
              <div className="columns">

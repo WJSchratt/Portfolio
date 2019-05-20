@@ -35,6 +35,11 @@ p{
   p{
     font-size: 1.5vw;
   }
+  img {
+    height: 10vh;
+    width: 40vw;
+
+  }
 
 }
 
@@ -58,5 +63,11 @@ p{
 
   p{
     font-size: 1.5vw;
+  }
+
+  img {
+    height: 10vh;
+    width: 40vw;
+
   }
 }
