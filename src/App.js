@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import { Navbar } from 'react-bulma-components';
 import  Nav  from "./components/nav.js";

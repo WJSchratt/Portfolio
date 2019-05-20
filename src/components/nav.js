@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import ".././components/nav.css";
-import complogo from '.././images/IMG_0268.jpeg';
-import linkedin from ".././images/LinkedIn-Blue-14-┬«@2x.png";
 import git from ".././images/GitHub-Logo.png";
 import { goToAnchor } from 'react-scrollable-anchor';
 
@@ -12,39 +10,39 @@ export default class Nav extends Component {
   render () {
     return (
       <div className="Nav">
-        <nav class="navbar is-fixed-top " role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
+        <nav className="navbar is-fixed-top " role="navigation" aria-label="main navigation">
+          <div className="navbar-brand">
           </div>
-        <div id="navbarBasicExample is-size-6" class="navbar-menu">
-          <div class="navbar-start">
-            <a className="navbar-item is-size-3" id="home">Home</a>
+        <div id="navbarBasicExample is-size-6" className="navbar-menu">
+          <div className="navbar-start">
+            <a className="navbar-item is-size-3" href="#section1" id="home">Home</a>
             <a className="navbar-item is-size-3" id="about" href="#section2">About me</a>
             <a className="navbar-item is-size-3"  id="projects" href='#section3'> Projects </a>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a id="more" class="navbar-link is-size-3">
+          <div className="navbar-item has-dropdown is-hoverable">
+            <a id="more" href="#" className="navbar-link is-size-3">
               More
             </a>
-        <div id="clear" class="navbar-dropdown">
-          <a id="clear" class="navbar-item">
+        <div id="clear" className="navbar-dropdown">
+          <a id="clear" href="https://github.com/WJSchratt" className="navbar-item">
             GitHub
           </a>
-          <a id="clear" class="navbar-item">
+          <a id="clear" href="https://www.linkedin.com/in/walter-schratt-876202177/" className="navbar-item">
             Linked-In
           </a>
-          <hr id="clear" class="navbar-divider"/>
-          <a  id="clear" class="navbar-item">
+          <hr id="clear" className="navbar-divider"/>
+          <a href="mailto:john.schratt1@gmail.com"  id="clear" className="navbar-item">
             Contact
           </a>
           </div>
         </div>
       </div>
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="buttons">
+                <a  href="https://github.com/WJSchratt" className="button is-primary">
                   <strong>GitHub</strong>
                 </a>
-                <a class="button is-light">
+                <a  href="https://www.linkedin.com/in/walter-schratt-876202177/" className="button is-light">
                   Linked in
                 </a>
               </div>

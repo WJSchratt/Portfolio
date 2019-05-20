@@ -36,11 +36,7 @@ export default class Projects extends Component {
                    </div>
              </div>
            <footer>
-           <div className="row">
-             <div className="col-sm">
-
-             </div>
-             </div>
+           This is a moblie freindly "create-react-app"
            </footer>
            </div>
          </section>
