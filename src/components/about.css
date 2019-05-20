@@ -10,7 +10,7 @@
 }
 
 .title1 {
-  font-size: 4vw;
+  font-size: 50px;
   color: black;
   font-weight:bold;
   font-family: 'Gugi', cursive;
@@ -18,7 +18,7 @@
 
 .intro1 {
   color: black  ;
-  font-size:2vw;
+  font-size:25px;
   font-family: 'Anton', sans-serif;
   margin-left:20%;
   margin-right:20%
@@ -26,25 +26,27 @@
 
 table {
   flex: auto;
-  font-size: 2vw;
+  font-size: 1.6vw;
+  width: 100%;
+  margin-top:50px;
+  height:100%;
 }
 
 .tble {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
 .tble tr {
   border: 1px solid black;
   padding: 8px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .tble th {
   border: 1px solid black;
   padding: 8px;
   background-color: rgba(0, 0, 0, 0.8);
-  color:white
+  color:white;
+  text-align:center;
 }

@@ -23,10 +23,12 @@ function App() {
          }}><Nav/><Intro/></FullpageSection>
          <FullpageSection style={{
              backgroundImage: `url(${sky})`,
+             height: '100vh',
            padding: '1em',
          }}><About/></FullpageSection>
          <FullpageSection style={{
            backgroundColor: 'firebrick',
+           height: '100vh',
            padding: '1em',
          }}>3</FullpageSection>
 

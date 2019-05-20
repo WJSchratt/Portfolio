@@ -26,20 +26,19 @@ export default class About extends Component {
           </div>
         </div>
         <div class="columns">
-          <div class="column is-two-thirds">
+          <div class="column ">
             <table className="tble">
               <thead className="head" id="pls">
               <th class="head" id="pls" > Frontend/Backend Ux Development</th>
               </thead>
                 <tbody>
-                  <ul classname="list-group">
                     <tr class="rows">React</tr>
                     <tr class="rows">JS, Html, CSS, NodeJS</tr>
                     <tr class="rows">CSS frameworks(BootStrap,Bulma,Material)</tr>
                     <tr class="rows"> Git, Github, team project websites</tr>
                     <tr class="rows">Adobe Photoshop and other editing softwares </tr>
                     <tr class="rows">Fluent in German</tr>
-                  </ul>
+
                 </tbody>
               </table>
           </div>

@@ -1,3 +1,4 @@
+@media (min-width: 800px) {
 .walt {
   margin-top:30vh ;
   text-align: center;
@@ -12,7 +13,7 @@
 }
 .main {
   font-family: 'Gugi', cursive;
-  font-size: 4vw;
+  font-size: 50px;
   color: black;
 }
 
@@ -30,7 +31,9 @@ filter:blur(0px);
 
 }
 .foot {
-  margin-top:2%;
+  margin-top:10vh;
+  bottom:0px;
+  width:100%;
 
 }
 
@@ -39,3 +42,49 @@ filter:blur(0px);
   height: 20%;
   width: 20%;
 }
+}
+
+@media  (max-width: 799px) {
+ 
+  .walt {
+    margin-top:10vh ;
+    text-align: center;
+  }
+  .short {
+    margin-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    color:rgba(0, 0, 0, 0.8 );
+    height:15vw;
+  }
+  .main {
+    font-family: 'Gugi', cursive;
+    font-size: 50px;
+    color: black;
+  }
+
+  .icon {
+    font-size: 60px;
+    text-align: left;
+    color:black;
+    filter:blur(1px);
+    font-family: 'Gugi';
+  }
+
+  .icon:hover {
+  color:black;
+  filter:blur(0px);
+
+  }
+  .foot {
+    margin-top:30vh;
+
+  }
+
+  .git {
+    color: black;
+    height: 20%;
+    width: 20%;
+  }
+  }
