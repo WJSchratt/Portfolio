@@ -17,6 +17,7 @@ export default class Projects extends Component {
            <div className="arrow">
              <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a>
            </div>
+           <div className="body">
              <div className="columns">
                  <div className="column">
                      <h1> Music Player App </h1>
@@ -41,7 +42,7 @@ export default class Projects extends Component {
              </div>
              </div>
            </footer>
-
+           </div>
          </section>
        </ScrollableAnchor>
 )

@@ -16,8 +16,8 @@ export default class Nav extends Component {
         <div id="navbarBasicExample is-size-6" class="navbar-menu">
           <div class="navbar-start">
             <a className="navbar-item is-size-3" id="home" href="#section1">Home</a>
-            <a className="navbar-item is-size-3" id="about"href="#section2">About me</a>
-            <a className="navbar-item is-size-3"  id="projects"href='#section3'> Projects </a>
+            <a className="navbar-item is-size-3" id="about" href="#section2">About me</a>
+            <a className="navbar-item is-size-3"  id="projects" href='#section3'> Projects </a>
           <div class="navbar-item has-dropdown is-hoverable">
             <a id="more" class="navbar-link is-size-3">
               More

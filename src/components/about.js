@@ -12,10 +12,12 @@ export default class About extends Component {
   }}
   render () {
     return (
+      <ScrollableAnchor >
+      <section id={'section2'}>
       <div className="about">
         <div class="columns">
           <div class="column">
-            <a className="icon ion-md-arrow-dropup-circle" href="#section1">Up</a>
+            <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a>
           </div>
         </div>
         <div class="columns">
@@ -34,7 +36,7 @@ export default class About extends Component {
                 <tbody>
                     <tr class="rows">React</tr>
                     <tr class="rows">JS, Html, CSS, NodeJS</tr>
-                    <tr class="rows">CSS frameworks(BootStrap,Bulma,Material)</tr>
+                    <tr class="rows">CSS frameworks(BootStrap,Bulma,Material,etc.)</tr>
                     <tr class="rows"> Git, Github, team project websites</tr>
                     <tr class="rows">Adobe Photoshop and other editing softwares </tr>
                     <tr class="rows">Fluent in German</tr>
@@ -48,7 +50,9 @@ export default class About extends Component {
               <footer className="foot">
               <a className="icon ion-md-arrow-dropdown-circle" href="#section3">Down</a>
               </footer>
-            </div>
+      </div>
+      </section>
+      </ScrollableAnchor >
 
 
 )}}

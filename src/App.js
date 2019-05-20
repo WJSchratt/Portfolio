@@ -9,7 +9,7 @@ import mountains from "./images/01.jpg";
 import About from "./components/about.js";
 import sky from "./images/beach-foam-iphone-wallpaper-533923.jpg";
 import Project from "./components/project.js";
-
+import forest from "./images/bird-s-eye-view-forest-green-113338.jpg";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
 
          <FullpageSection style={{
            backgroundImage: `url(${mountains})`,
+           backgroundColor:'white',
            height: '100vh',
            padding: '1em',
          }}><Nav/><Intro/></FullpageSection>
@@ -29,7 +30,7 @@ function App() {
            padding: '1em',
          }}><About/></FullpageSection>
          <FullpageSection style={{
-           backgroundColor: 'firebrick',
+           backgroundImage: `url(${forest})`,
            height: '100vh',
            padding: '1em',
          }}><Project/>

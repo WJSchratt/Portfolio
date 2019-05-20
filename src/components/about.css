@@ -20,7 +20,7 @@
 
 .intro1 {
   color: black  ;
-  font-size:25px;
+  font-size:1.2vw;
   font-family: 'Anton', sans-serif;
   margin-left:20%;
   margin-right:20%
@@ -54,7 +54,7 @@ table {
 }
 .bottominfo {
   color:white !important;
-  font-size:1vw;
+  font-size:1.3vw;
   color: black;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);

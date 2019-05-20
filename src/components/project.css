@@ -1,14 +1,62 @@
 @media (min-width: 801px) {
+#section3{
+  color:black;
+}
 
+h1{
+  color:white;
+  font-size: 2vw;
+}
+
+.body {
+  margin-top:20vh;
+}
+
+p{
+  font-size: 1.5vw;
+}
 
 }
 
 @media (max-width: 800px) {
+  #section3{
+    color:black;
+  }
+
+  h1{
+    color:white;
+    font-size: 2vw;
+  }
+
+  .body {
+    margin-top:2vh;
+  }
+
+  p{
+    font-size: 1.5vw;
+  }
 
 }
 
 @media (max-width: 599px) {
   .arrow{
     visibility: none;
+  }
+
+  #section3{
+    color:black;
+  }
+
+  h1{
+    color:white;
+    font-size: 2vw;
+  }
+
+  .body {
+    margin-top:2vh;
+  }
+
+  p{
+    font-size: 1.5vw;
   }
 }

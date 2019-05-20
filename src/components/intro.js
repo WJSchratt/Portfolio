@@ -13,7 +13,7 @@ export default class Intro extends Component {
     <div class="columns">
       <div class="column">
         <div className="walt">
-          <h1 className="main"> Hey there I am Walter John Schratt</h1>
+          <h1 className="main"> Hey there, I am Walter John Schratt</h1>
           <p className="short"> a UX Developer that is passionate about Solving Issues, Creating and Designing Responsive and Modern Web-Applications </p>
         </div>
       </div>
