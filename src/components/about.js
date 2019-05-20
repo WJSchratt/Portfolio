@@ -17,7 +17,7 @@ export default class About extends Component {
       <div className="about">
         <div class="columns">
           <div class="column">
-            <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a>
+            <a className="icon ion-md-arrow-dropup-circle" href="#section1">Up</a>
           </div>
         </div>
         <div class="columns">

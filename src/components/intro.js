@@ -21,7 +21,7 @@ export default class Intro extends Component {
       <div class="columns">
         <div class="column">
         <footer className="foot">
-            <a className="icon ion-md-arrow-dropdown-circle" href="#section3">Down</a>
+            <a className="icon ion-md-arrow-dropdown-circle" href="#section2">Down</a>
         </footer>
         </div>
         </div>

@@ -4,9 +4,11 @@ import ".././components/nav.css";
 import complogo from '.././images/IMG_0268.jpeg';
 import linkedin from ".././images/LinkedIn-Blue-14-┬«@2x.png";
 import git from ".././images/GitHub-Logo.png";
-
+import { goToAnchor } from 'react-scrollable-anchor';
 
 export default class Nav extends Component {
+
+
   render () {
     return (
       <div className="Nav">
@@ -15,7 +17,7 @@ export default class Nav extends Component {
           </div>
         <div id="navbarBasicExample is-size-6" class="navbar-menu">
           <div class="navbar-start">
-            <a className="navbar-item is-size-3" id="home" href="#section1">Home</a>
+            <a className="navbar-item is-size-3" id="home">Home</a>
             <a className="navbar-item is-size-3" id="about" href="#section2">About me</a>
             <a className="navbar-item is-size-3"  id="projects" href='#section3'> Projects </a>
           <div class="navbar-item has-dropdown is-hoverable">

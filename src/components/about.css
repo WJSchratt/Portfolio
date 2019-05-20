@@ -144,7 +144,7 @@ table {
   }
 
   .title1 {
-    margin-top: 0px;
+    margin-top: 5vh;
     font-size: 3vh;
     color: black;
     font-weight:bold;
@@ -153,7 +153,7 @@ table {
 
   .intro1 {
     color: black  ;
-    font-size:3vh;
+    font-size:2vh;
     font-family: 'Anton', sans-serif;
     margin-left:20%;
     margin-right:20%
