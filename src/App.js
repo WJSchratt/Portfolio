@@ -8,6 +8,8 @@ import  Intro  from "./components/intro.js";
 import mountains from "./images/01.jpg";
 import About from "./components/about.js";
 import sky from "./images/beach-foam-iphone-wallpaper-533923.jpg";
+import Project from "./components/project.js";
+
 
 function App() {
   return (
@@ -30,7 +32,8 @@ function App() {
            backgroundColor: 'firebrick',
            height: '100vh',
            padding: '1em',
-         }}>3</FullpageSection>
+         }}><Project/>
+         </FullpageSection>
 
        </FullPageSections>
 

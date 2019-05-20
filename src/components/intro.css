@@ -47,12 +47,12 @@ filter:blur(0px);
 @media  (max-width: 599px) {
 
   .walt {
-    margin-top:10vh ;
+    margin-top:20vh ;
     text-align: center;
   }
   .short {
     margin-top: 2%;
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
     font-family: 'Gugi', cursive;
     color:rgba(0, 0, 0, 0.8 );
@@ -70,11 +70,13 @@ filter:blur(0px);
     color:black;
     filter:blur(1px);
     font-family: 'Gugi';
+    visibility:hidden;
   }
 
   .icon:hover {
   color:black;
   filter:blur(0px);
+  visibility:hidden;
 
   }
   .foot {
