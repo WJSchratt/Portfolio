@@ -10,6 +10,7 @@ export default class Intro extends Component {
   render () {
     return (
     <div className="intro">
+    <section id={'section1'}>
     <div className="columns">
       <div className="column">
         <div className="walt">
@@ -25,11 +26,13 @@ export default class Intro extends Component {
         </footer>
         </div>
         </div>
+        </section>
+        </div>
 
 
 
 
-    </div>
+
 
 
     )}}
