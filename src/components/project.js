@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import "./project.css";
-import jams from ".././images/Screen Shot 2019-05-09 at 2.17.11 PM.png";
+import jams from ".././images/Screen Shot 2019-05-22 at 10.31.58 AM 2.png";
 import chat from ".././images/Screen Shot 2019-05-15 at 5.16.43 PM 2.png";
 import todo from ".././images/Screen Shot 2019-05-09 at 2.46.39 PM 2.png";
 
@@ -31,7 +31,7 @@ export default class Projects extends Component {
                    </div>
                    <div className="column">
                      <h1> To-do-List </h1>
-                       <p> A Simple React-Site </p>
+                       <p className="space"> A Simple React-Site that is still in progress </p>
                        <a href="https://to-do-react.netlify.com"> <img className="chat" src={ todo }/></a>
                    </div>
              </div>

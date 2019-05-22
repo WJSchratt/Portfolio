@@ -20,6 +20,9 @@ footer {
 }
 
 }
+.space {
+  margin-top: 3vh;
+}
 
 @media (max-width: 800px) {
   #section3{
