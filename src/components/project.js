@@ -5,6 +5,7 @@ import "./project.css";
 import jams from ".././images/Screen Shot 2019-05-22 at 10.31.58 AM 2.png";
 import chat from ".././images/Screen Shot 2019-05-15 at 5.16.43 PM 2.png";
 import todo from ".././images/Screen Shot 2019-05-09 at 2.46.39 PM 2.png";
+import wed from ".././images/wedding-pproj.png";
 
 export default class Projects extends Component {
   constructor(props){
@@ -28,6 +29,11 @@ export default class Projects extends Component {
                      <h1> Chat-App </h1>
                        <p> A chatt SPA that uses firbase as the dataBase to create messages and users. Still in development stage. </p>
                        <a href="https://chatt-app.netlify.com"> <img className="chat" src={ chat }/> </a>
+                   </div>
+                   <div className="column">
+                     <h1> Client-Website </h1>
+                       <p className="space"> A protoype example of a responsive SPA built for a client</p>
+                       <a href="https://beas-wed.netlify.com/"> <img className="chat" src={ wed }/></a>
                    </div>
                    <div className="column">
                      <h1> To-do-List </h1>
