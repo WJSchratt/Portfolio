@@ -32,7 +32,7 @@ export default class Projects extends Component {
                    </div>
                    <div className="column">
                      <h1> Client-Website </h1>
-                       <p className="space"> A protoype example of a responsive SPA built for a client</p>
+                       <p className="space"> A prototype example of a responsive SPA built for a client</p>
                        <a href="https://beas-wed.netlify.com/"> <img className="chat" src={ wed }/></a>
                    </div>
                    <div className="column">
