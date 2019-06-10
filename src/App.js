@@ -17,7 +17,6 @@ function App() {
     <Fullpage>
 
        <FullPageSections>
-
          <FullpageSection style={{
            backgroundImage: `url(${mountains})`,
            backgroundColor:'white',
