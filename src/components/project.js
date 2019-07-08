@@ -42,7 +42,7 @@ export default class Projects extends Component {
                    </div>
              </div>
            <footer>
-           This is a moblie freindly "create-react-app"
+           This is a moblie friendly react-app made from scratch
            </footer>
            </div>
          </section>
