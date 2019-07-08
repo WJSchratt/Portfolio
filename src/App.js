@@ -5,9 +5,9 @@ import { Navbar } from 'react-bulma-components';
 import  Nav  from "./components/nav.js";
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import  Intro  from "./components/intro.js";
-import mountains from "./images/01.jpg";
+import mountains from './images/woods.jpg';
 import About from "./components/about.js";
-import sky from "./images/beach-foam-iphone-wallpaper-533923.jpg";
+import sky from "./images/background-beautiful-blue-1435752.jpg";
 import Project from "./components/project.js";
 import forest from "./images/bird-s-eye-view-forest-green-113338.jpg";
 
