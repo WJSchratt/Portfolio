@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import ".././components/intro.css";
 import complogo from '.././images/IMG_0268.jpeg';
 import linkedin from ".././images/LinkedIn-Blue-14-┬«@2x.png";
@@ -22,7 +22,7 @@ export default class Intro extends Component {
       <div className="columns">
         <div className="column">
         <footer className="foot">
-            <a className="icon ion-md-arrow-dropdown-circle" href="#section2">Down</a>
+            <AnchorLink href='#section3'><a className="icon ion-md-arrow-dropdown-circle">Down</a></AnchorLink>
         </footer>
         </div>
         </div>

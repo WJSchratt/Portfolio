@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './about.css'
 
 
@@ -9,14 +9,14 @@ export default class About extends Component {
     this.state = {
     anchors:['page1']
   }}
+
   render () {
     return (
-      <ScrollableAnchor >
       <section id={'section2'}>
       <div className="about">
         <div className="columns">
           <div className="column">
-            <a className="icon ion-md-arrow-dropup-circle" href="#section1">Up</a>
+            <AnchorLink href='#section1'> <a className="icon ion-md-arrow-dropup-circle">Up</a></AnchorLink>
           </div>
         </div>
         <div className="columns">
@@ -49,11 +49,11 @@ export default class About extends Component {
                 </div>
               </div>
               <footer className="foot">
-              <a className="icon ion-md-arrow-dropdown-circle" href="#section3">Down</a>
+              <AnchorLink href='#section3'><a className="icon ion-md-arrow-dropdown-circle">Down</a></AnchorLink>
               </footer>
       </div>
       </section>
-      </ScrollableAnchor >
+
 
 
 )}}

@@ -7,11 +7,15 @@ import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpa
 import  Intro  from "./components/intro.js";
 import mountains from './images/woods.jpg';
 import About from "./components/about.js";
-import sky from "./images/background-beautiful-blue-1435752.jpg";
+import sky from "./images/atmosphere-background-bright-19670.jpg";
 import Project from "./components/project.js";
 import forest from "./images/bird-s-eye-view-forest-green-113338.jpg";
 
+
+
+
 function App() {
+console.log = console.warn = console.error = console.typeerror = () => {};
   return (
     <div className="App">
     <Fullpage>

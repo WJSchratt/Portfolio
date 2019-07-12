@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import "./project.css";
 import jams from ".././images/Screen Shot 2019-05-22 at 10.31.58 AM 2.png";
-import chat from ".././images/Screen Shot 2019-05-15 at 5.16.43 PM 2.png";
+import chat from ".././images/Screen Shot 2019-07-12 at 3.29.15 PM 2.png";
 import todo from ".././images/Screen Shot 2019-05-09 at 2.46.39 PM 2.png";
 import wed from ".././images/wedding-pproj.png";
+
 
 export default class Projects extends Component {
   constructor(props){
     super(props)
   }
   render () {
+
     return (
-      <ScrollableAnchor >
+
          <section id={'section3'}>
            <div className="arrow">
-             <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a>
+            <AnchorLink href='#section2'>  <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a></ AnchorLink> 
            </div>
            <div className="body">
              <div className="columns">
@@ -46,7 +48,7 @@ export default class Projects extends Component {
            </footer>
            </div>
          </section>
-       </ScrollableAnchor>
+
 )
 }
 }
