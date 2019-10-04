@@ -35,16 +35,17 @@ export default class About extends Component {
               </tr>
               </thead>
                 <tbody>
-                    <tr className="rows">React</tr>
-                    <tr className="rows">JS, Html, CSS, NodeJS</tr>
+                    <tr className="rows">React,SPA,OOP</tr>
+                    <tr className="rows">JS, Html, CSS, NodeJS, Elementary Java</tr>
                     <tr className="rows">CSS frameworks(BootStrap,Bulma,Material,etc.)</tr>
-                    <tr className="rows">Git, Github, team project websites</tr>
+                    <tr className="rows">Git, Github, Team Project Websites</tr>
+                    <tr className="rows">Webpack,Client-Side Preferred Programming</tr>
                     <tr className="rows">Adobe Photoshop and other editing softwares </tr>
                     <tr className="rows">Fluent in German</tr>
                 </tbody>
               </table>
           </div>
-          
+
               </div>
               <footer className="foot">
               <AnchorLink href='#section3'><a className="icon ion-md-arrow-dropdown-circle">Down</a></AnchorLink>
