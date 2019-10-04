@@ -44,9 +44,7 @@ export default class About extends Component {
                 </tbody>
               </table>
           </div>
-          <div className="column ">
-          <p className="bottominfo">I am a self-driven, hardworking individual who fell in love with coding during my internship with Bosch. That’s when I decided to become an Object-Oriented Programmer. I started teaching myself web-development over a year ago and with the help of Bloc Dev. Bootcamp I have learned the tools to become a frontend and backend developer. I specialize in building React SPA’s from scratch and can quickly adapt to new frameworks. I look forward for the new challenges I will face in the future because that’s what being a programmer is all about.</p>
-                </div>
+          
               </div>
               <footer className="foot">
               <AnchorLink href='#section3'><a className="icon ion-md-arrow-dropdown-circle">Down</a></AnchorLink>
