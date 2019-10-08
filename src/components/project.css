@@ -1,6 +1,6 @@
 @media (min-width: 801px) {
 #section3{
-  color:black;
+  color:white;
 }
 
 h1{
@@ -26,7 +26,7 @@ footer {
 
 @media (max-width: 800px) {
   #section3{
-    color:black;
+    color:white;
   }
 
   h1{
@@ -60,7 +60,7 @@ footer {
   }
 
   #section3{
-    color:black;
+    color:white;
   }
 
   h1{
