@@ -18,7 +18,13 @@ export default class Projects extends Component {
 
          <section id={'section3'}>
            <div className="arrow">
-            <AnchorLink href='#section2'>  <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a></ AnchorLink> 
+            <AnchorLink href='#section2'>  <a className="icon ion-md-arrow-dropup-circle" href="#section2">Up</a></ AnchorLink>
+           </div>
+           <div class="jumbotron jumbotron-fluid">
+           <div class="container">
+           <h1 class="display-4" id= "proj">Projects</h1>
+           
+           </div>
            </div>
            <div className="body">
              <div className="columns">
@@ -43,9 +49,7 @@ export default class Projects extends Component {
                        <a href="https://to-do-react.netlify.com"> <img className="chat" src={ todo }/></a>
                    </div>
              </div>
-           <footer>
-           This is a moblie friendly react-app made from scratch
-           </footer>
+
            </div>
          </section>
 

@@ -3,6 +3,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import ".././components/nav.css";
 import git from ".././images/GitHub-Logo.png";
 import { goToAnchor } from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default class Nav extends Component {
 
@@ -15,9 +16,8 @@ export default class Nav extends Component {
           </div>
         <div id="navbarBasicExample is-size-6" className="navbar-menu">
           <div className="navbar-start">
-            <a className="navbar-item is-size-3" href="#section1" id="home">Home</a>
-            <a className="navbar-item is-size-3" id="about" href="#section2">About me</a>
-            <a className="navbar-item is-size-3"  id="projects" href='#section3'> Projects </a>
+            <AnchorLink href='#section2' className="navbar-item is-size-3" id="about">About me</AnchorLink>
+          
           <div className="navbar-item has-dropdown is-hoverable">
             <a id="more" href="#" className="navbar-link is-size-3">
               More
